@@ -26,7 +26,7 @@ let reset=function(){
 }
 //check result
 let result=function(){
-    if (Math.trunc(document.getElementById(`score--${activePlayer}`).textContent)+currentScore>=20)
+    if (Math.trunc(document.getElementById(`score--${activePlayer}`).textContent)+currentScore>=100)
     {
         gameon=false;
         diceEl.classList.add('hidden');
